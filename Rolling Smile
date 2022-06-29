@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>none</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
 
-    <! hello >
-    <br />
     <style>
       @keyframes spinning {
         from {
@@ -23,13 +24,16 @@
       }
     </style>
   </head>
+
   <body>
-    <img
-      src="https://i.ibb.co/ZMVsF7G/smile.png"
-      alt="smile"
-      class="spin"
-      width="50"
-      height="50"
-    />
+    <marquee behavior="alternate" direction="right">
+      <img
+        src="https://i.ibb.co/ZMVsF7G/smile.png"
+        alt="alexis smiles"
+        class="spin"
+        height="50"
+        weight="50"
+      />
+    </marquee>
   </body>
 </html>
