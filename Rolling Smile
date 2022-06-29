@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>none</title>
+
+    <! hello >
+    <br />
+    <style>
+      @keyframes spinning {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      .spin {
+        animation-name: spinning;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        /* linear | ease | ease-in | ease-out | ease-in-out */
+        animation-timing-function: linear;
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      src="https://i.ibb.co/ZMVsF7G/smile.png"
+      alt="smile"
+      class="spin"
+      width="50"
+      height="50"
+    />
+  </body>
+</html>
