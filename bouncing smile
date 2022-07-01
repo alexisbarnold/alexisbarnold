@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="smile/face.css" />
+
+    <style>
+      body {
+        font: 1em sans-serif;
+        text-align: center;
+      }
+
+      .responsive {
+        width: 100%;
+        max-width: 30px;
+        height: auto;
+      }
+
+      .happy {
+        align-self: flex-end;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        background-color: none;
+        height: 75%;
+        margin: 0 auto 0 auto;
+        transform-origin: bottom;
+        width: 20%;
+      }
+      .bounce-6 {
+        animation-name: bounce-6;
+        animation-timing-function: ease;
+      }
+      @keyframes bounce-6 {
+        0% {
+          transform: scale(1, 1) translateY(0);
+        }
+        10% {
+          transform: scale(1.1, 0.9) translateY(0);
+        }
+        30% {
+          transform: scale(0.9, 1.1) translateY(-40px);
+        }
+        50% {
+          transform: scale(1, 0.95) translateY(0);
+        }
+        57% {
+          transform: scale(1, 1) translateY(-7px);
+        }
+        64% {
+          transform: scale(1, 1) translateY(0);
+        }
+        100% {
+          transform: scale(1, 1) translateY(0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="happy bounce-6" class="responsive">
+      <img src="https://i.ibb.co/ZMVsF7G/smile.png" id="happy" height="30" />
+    </div>
+  </body>
+</html>
